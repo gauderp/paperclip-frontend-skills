@@ -9,9 +9,18 @@
     "frontend",
     "skills",
     "design-engineering",
+    "ui-ux",
     "ui-polish",
     "animations",
-    "ai-agent"
+    "accessibility",
+    "responsive-design",
+    "typography",
+    "color-systems",
+    "easing",
+    "css-animations",
+    "component-design",
+    "ai-agent",
+    "managed-skills"
   ],
   "repository": {
     "type": "git",
