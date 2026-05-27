@@ -1,6 +1,6 @@
 {
   "name": "@gaud_erp/paperclip-frontend-skills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Paperclip plugin that provides curated frontend skills for AI agents — design engineering, UI polish, animations, and more",
   "license": "MIT",
   "keywords": [
@@ -32,7 +32,7 @@
     "manifest": "./dist/manifest.js"
   },
   "dependencies": {
-    "@paperclipai/plugin-sdk": "2026.517.0"
+    "@paperclipai/plugin-sdk": "^2026.525.0"
   },
   "devDependencies": {
     "esbuild": "^0.25.0",
