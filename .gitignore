@@ -1,0 +1,9 @@
+node_modules/
+dist/
+config.json
+master.key
+*.key
+.env
+Dockerfile
+fly.toml
+entrypoint.sh

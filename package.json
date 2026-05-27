@@ -1,0 +1,39 @@
+{
+  "name": "@gaud_erp/paperclip-skills-pack",
+  "version": "1.0.0",
+  "description": "Paperclip plugin that provides curated skills for AI agents — design engineering, UI polish, and more",
+  "license": "MIT",
+  "keywords": [
+    "paperclip",
+    "paperclip-plugin",
+    "skills",
+    "design-engineering",
+    "ui-polish",
+    "ai-agent"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gauderp/paperclip-skills-pack"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "paperclip": {
+    "manifest": "./dist/manifest.js"
+  },
+  "dependencies": {
+    "@paperclipai/plugin-sdk": "2026.517.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "typescript": "^5.8.0"
+  }
+}
