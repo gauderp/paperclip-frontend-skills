@@ -2,12 +2,12 @@ import type { PaperclipPluginManifestV1 } from "@paperclipai/plugin-sdk";
 import { emilDesignEngSkill } from "./skills/index.js";
 
 const manifest: PaperclipPluginManifestV1 = {
-  id: "cus.skills-pack",
+  id: "cus.frontend-skills",
   version: "1.0.0",
   apiVersion: 1,
-  displayName: "Skills Pack",
+  displayName: "Frontend Skills",
   description:
-    "Curated skills for AI agents — design engineering, UI polish, animation decisions, and more",
+    "Curated frontend skills for AI agents — design engineering, UI polish, animations, and more",
   author: "Gaud ERP",
   categories: ["automation"],
 

@@ -1,6 +1,6 @@
-# Skills Pack
+# Frontend Skills
 
-Paperclip plugin that provides curated skills for AI agents.
+Paperclip plugin that provides curated frontend skills for AI agents.
 
 ## Included Skills
 
@@ -11,7 +11,7 @@ Paperclip plugin that provides curated skills for AI agents.
 ## Installation
 
 ```bash
-npm install @gaud_erp/paperclip-skills-pack
+npm install @gaud_erp/paperclip-frontend-skills
 ```
 
 Then install in Paperclip via the plugin marketplace or CLI.

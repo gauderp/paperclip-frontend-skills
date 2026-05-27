@@ -5,7 +5,7 @@ const SKILL_KEYS = [emilDesignEngSkill.skillKey];
 
 const plugin = definePlugin({
   async setup(ctx) {
-    ctx.logger.info("Skills Pack starting");
+    ctx.logger.info("Frontend Skills starting");
 
     // Reconcile all skills for existing companies
     const companies = await ctx.companies.list();
@@ -26,11 +26,11 @@ const plugin = definePlugin({
       }
     });
 
-    ctx.logger.info(`Skills Pack ready — ${SKILL_KEYS.length} skill(s) registered`);
+    ctx.logger.info(`Frontend Skills ready — ${SKILL_KEYS.length} skill(s) registered`);
   },
 
   async onHealth() {
-    return { status: "ok", message: `Skills Pack — ${SKILL_KEYS.length} skill(s)` };
+    return { status: "ok", message: `Frontend Skills — ${SKILL_KEYS.length} skill(s)` };
   },
 });
 
