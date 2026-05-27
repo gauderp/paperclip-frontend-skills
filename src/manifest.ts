@@ -3,7 +3,7 @@ import { emilDesignEngSkill, uiUxProMaxSkill } from "./skills/index.js";
 
 const manifest: PaperclipPluginManifestV1 = {
   id: "cus.frontend-skills",
-  version: "1.1.0",
+  version: "1.1.1",
   apiVersion: 1,
   displayName: "Frontend Skills",
   description:
