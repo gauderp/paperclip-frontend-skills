@@ -7,6 +7,7 @@ Paperclip plugin that provides curated frontend skills for AI agents.
 | Skill | Description |
 |-------|-------------|
 | **Design Engineering** (Emil Kowalski) | UI polish, component design, animation decisions, and the invisible details that make software feel great |
+| **UI/UX Pro Max** | 99 UX guidelines, accessibility, animation timing, typography, color systems, forms, navigation, and charts |
 
 ## Installation
 

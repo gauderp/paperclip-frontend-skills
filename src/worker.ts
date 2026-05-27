@@ -1,7 +1,7 @@
 import { definePlugin, runWorker } from "@paperclipai/plugin-sdk";
-import { emilDesignEngSkill } from "./skills/index.js";
+import { emilDesignEngSkill, uiUxProMaxSkill } from "./skills/index.js";
 
-const SKILL_KEYS = [emilDesignEngSkill.skillKey];
+const SKILL_KEYS = [emilDesignEngSkill.skillKey, uiUxProMaxSkill.skillKey];
 
 const plugin = definePlugin({
   async setup(ctx) {

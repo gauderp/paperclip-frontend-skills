@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "app-store-screenshots": {
+      "source": "ParthJadhav/app-store-screenshots",
+      "sourceType": "github",
+      "skillPath": "skills/app-store-screenshots/SKILL.md",
+      "computedHash": "dba4ec7541d2a58798d59f19a9944e0452426be74836d38d4d8816870569a359"
+    }
+  }
+}

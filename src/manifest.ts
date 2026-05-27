@@ -1,9 +1,9 @@
 import type { PaperclipPluginManifestV1 } from "@paperclipai/plugin-sdk";
-import { emilDesignEngSkill } from "./skills/index.js";
+import { emilDesignEngSkill, uiUxProMaxSkill } from "./skills/index.js";
 
 const manifest: PaperclipPluginManifestV1 = {
   id: "cus.frontend-skills",
-  version: "1.0.1",
+  version: "1.1.0",
   apiVersion: 1,
   displayName: "Frontend Skills",
   description:
@@ -21,7 +21,7 @@ const manifest: PaperclipPluginManifestV1 = {
     worker: "./dist/worker.js",
   },
 
-  skills: [emilDesignEngSkill],
+  skills: [emilDesignEngSkill, uiUxProMaxSkill],
 };
 
 export default manifest;
